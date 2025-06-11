@@ -2,6 +2,9 @@
 
 This repository documents my learning journey in Python, data analysis, machine learning, and real-world projects.
 
+[![License](https://img.shields.io/github/license/hellorito/ds-learning-journey)](https://github.com/hellorito/ds-learning-journey/blob/main/LICENSE)
+[![Issues](https://img.shields.io/github/issues/hellorito/ds-learning-journey)](https://github.com/hellorito/ds-learning-journey/issues)
+[![Stars](https://img.shields.io/github/stars/hellorito/ds-learning-journey)](https://github.com/hellorito/ds-learning-journey)
 ---
 
 ## 📚 Learning Path
