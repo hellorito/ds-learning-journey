@@ -11,26 +11,24 @@ This repository documents my learning journey in Python, data analysis, machine 
 
 ### ✅ Skills I'm building
 - Python programming for data science
-- Pandas and NumPy for data manipulation
-- Data visualization (Matplotlib, Seaborn)
-- Machine learning with scikit-learn
+- Data wrangling, EDA
+- Data visualization 
+- Machine learning
 - Healthcare-related ML projects
 - SQL for data querying
 - Tableau for dashboards
-- Cloud certifications & online learning
 
 ### 🗂️ Folder Overview
 
 | Folder | Description |
 |--------|-------------|
 | `01_Python_Basics/` | Python fundamentals |
-| `02_Data_Analysis/` | Pandas, NumPy |
-| `03_Visualization/` | Charts, plots |
+| `02_Data_Analysis/` | Manipulate data, create insights, and make predictions |
+| `03_Visualization/` | Charts, plots, dashboards |
 | `04_Machine_Learning/` | ML models and evaluation |
 | `05_Projects/` | Real-world projects |
 | `06_SQL/` | SQL learning notes |
 | `07_Tableau/` | Dashboard experiments |
-| `08_Certificates/` | Badges and certs |
 
 ---
 
