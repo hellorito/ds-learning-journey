@@ -34,7 +34,7 @@ This repository documents my learning journey in Python, data analysis, machine 
 
 ## 🔧 In Progress
 
-- [ ] IBM Data Science Certificate (Coursera)
+- [ ] IBM Data Science Certificate 
 - [ ] Heart disease ML project
 - [ ] Tableau dashboard mini-project
 
