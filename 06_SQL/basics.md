@@ -6,15 +6,29 @@
 
 ## Common SQL Commands
 
+### DDL – Data Definition Language
+
+> Deals with **structure/schema** of the database.
+
+| Command     | Purpose                          |
+|-------------|----------------------------------|
+| `CREATE`    | Create a new table/database      |
+| `ALTER`     | Modify an existing table         |
+| `DROP`      | Delete a table/database          |
+| `TRUNCATE`  | Remove all data, keep structure  |
+| `RENAME`    | Rename table or column           |
+
+
+### DML – Data Manipulation Language
+
+> Deals with **actual data inside** the tables.
+
 | Command      | Purpose                                |
 |--------------|----------------------------------------|
 | `SELECT`     | Query data from a table                |
 | `INSERT`     | Add new records                        |
 | `UPDATE`     | Modify existing records                |
 | `DELETE`     | Remove records                         |
-| `CREATE`     | Create new tables or databases         |
-| `DROP`       | Delete tables or databases             |
-| `ALTER`      | Modify table structure                 |
 | `WHERE`      | Filter records                         |
 | `GROUP BY`   | Group data for aggregation             |
 | `ORDER BY`   | Sort results                           |
@@ -130,6 +144,8 @@ WHERE condition;
 ```
 
 **NOTE**: Without WHERE, all rows will be deleted!
+
+---
 
 ## **Data Definition Language (DDL)** commands
 
