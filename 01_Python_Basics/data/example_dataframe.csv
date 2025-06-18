@@ -1,0 +1,8 @@
+Name,Age,City,Salary,Is_Employed,Join_Date
+Alice,25.0,NY,70000.0,True,2020-01-01
+Bob,30.0,LA,80000.0,False,2019-05-15
+Charlie,35.0,NY,,True,2021-07-20
+David,40.0,Chicago,90000.0,True,2018-03-30
+Eva,,LA,75000.0,False,2022-11-01
+Frank,45.0,,60000.0,True,2017-12-25
+Grace,50.0,Chicago,50000.0,True,2023-01-01

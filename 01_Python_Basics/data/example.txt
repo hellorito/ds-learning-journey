@@ -1,0 +1,7 @@
+Hello, world!
+This is a second line.
+This is a third line.
+
+This is a new line added in read+ mode.
+This is an appended line.
+This is another appended line.
