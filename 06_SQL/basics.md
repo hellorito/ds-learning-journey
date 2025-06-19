@@ -215,3 +215,78 @@ DROP TABLE table_name;
 ```sql
 TRUNCATE TABLE table_name;
 ```
+
+## SQL Aggregation and Sorting: `GROUP BY`, `HAVING`, `ORDER BY`
+
+## ORDER BY: Sort final results in ascending (ASC) or descending (DESC) order
+
+```sql
+SELECT ...
+FROM ...
+[WHERE ...]
+[GROUP BY ...]
+[HAVING ...]
+ORDER BY column [ASC|DESC];
+```
+
+You can also sort by multiple columns:
+
+```sql
+ORDER BY department ASC, employee_count DESC;
+```
+
+## GROUP BY: Grouping records
+
+Used with aggregate functions like `COUNT()`, `SUM()`, `AVG()`, etc. to **group rows** by one or more columns.
+
+```sql
+SELECT column1, AGG_FUNC(column2)
+FROM table
+GROUP BY column1;
+```
+
+### HAVING: Filtering Grouped Results
+
+Unlike WHERE (which filters rows **before** grouping), HAVING filters **after** GROUP BY.
+
+```sql
+SELECT column1, AGG_FUNC(column2)
+FROM table
+GROUP BY column1
+HAVING AGG_FUNC(column2) condition;
+```
+
+
+> Tips:
+> - Use WHERE to filter raw rows.
+> Use HAVING to filter aggregated groups.
+
+
+## ORDER of Execution
+
+|Step| Clause     | Purpose                          |
+|----|------------|----------------------------------|
+| 1  | `FROM`     | Choose source table              |
+| 2  | `WHERE`    | Filter rows before grouping      |
+| 3  | `GROUP BY` | Group rows                       |
+| 4  | `HAVING`   | Filter aggregated results        |
+| 5  | `SELECT`   | Choose output columns            |
+| 6  | `ORDER BY` | Sort final output                |
+
+
+Example of full query syntax:
+
+```sql
+SELECT department, AVG(salary) AS avg_salary
+FROM employees
+WHERE active = TRUE
+GROUP BY department
+HAVING AVG(salary) > 60000
+ORDER BY avg_salary DESC;
+```
+
+---
+
+# Thanks for reading!
+
+#### Written by @hellorito
